@@ -1,0 +1,12 @@
+<?php
+return [
+    'secret_key'               => 'Stealth!That\'sThe_KeyTo_ThisQuestion!', // For HMAC
+    'primary_session_cookie'   => [
+        'name'      => 'SturdyNinja',
+        'ttl'       => time() + Common::TIME_PERIOD_DAY * 30
+    ],
+    'auth_verification_cookie' => [
+        'name'      => 'EphemeralNinja',
+        'ttl'       => time() + (Common::TIME_PERIOD_HOUR * 4)  // Save authentication for a max of 4 hours.
+    ]
+];

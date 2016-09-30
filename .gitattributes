@@ -1,0 +1,4 @@
+*.sh		eol=lf
+*.pp        eol=lf
+*.json      eol=lf
+*.exec.php  eol=lf

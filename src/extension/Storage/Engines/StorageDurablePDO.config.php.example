@@ -1,0 +1,12 @@
+<?php
+return [
+    'type'     => 'mysql',
+    'dbname'   => 'lettuce',
+    'user'     => 'lettuce',
+    'password' => 'password',
+    'persist'  => true,
+    'buffer'   => false,
+    'socket'   => '/var/run/mysqld/mysqld.sock'
+    //'host'     => 'localhost',
+    //'port'     => '3306'
+];

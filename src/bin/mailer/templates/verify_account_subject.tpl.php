@@ -1,0 +1,1 @@
+Account Verify Code: <?=$scope['verification_human']?>
